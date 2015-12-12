@@ -1,0 +1,6 @@
+#sudo chmod +x /etc/init.d/ip-inspect
+#!/bin/bash
+#/etc/init.d/ip-inspect
+echo "start inspect ip address"
+python /home/pi/sys-utils/ip-inspect/ip-inspect.py
+exit 0
